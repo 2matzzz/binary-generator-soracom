@@ -11,7 +11,7 @@ var soracomUnifiedUDPEndpointFQDN = "uni.soracom.io:23080"
 
 func main() {
 	// [変数名]:[バイト列のインデックス]:[変数の型]:[型に依存した設定内容]
-	// flag:0:bool:7 temp:1:int:13:/10 humid:3:uint:8:/100 lat::float:32 long:float:32
+	// flag:0:bool:7 temp:1:int:13:/10 humid:3:uint:8:/100 lat::float:32 long::float:32
 	//
 	// flag:0:bool:7 [offset(required)]
 	// temp:1:int:13:/10 [length(required)][offset(optional)][operations(optional)]
